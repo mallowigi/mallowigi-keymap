@@ -9,11 +9,8 @@
         Mallowigi's custom keymap. A mix of Windows and Mac keymaps.
     </description>
 
-    <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
     <idea-version since-build="173.0" />
 
-    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
-         on how to target different products -->
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
