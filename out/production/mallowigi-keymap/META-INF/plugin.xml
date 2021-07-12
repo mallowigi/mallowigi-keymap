@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>com.mallowigi.keymap</id>
+    <name>Mallowigi KeyMap</name>
+    <version>1.0</version>
+    <category>Keymap</category>
+    <vendor email="elior@material-theme.com" url="https://www.material-theme.com">AtomMaterial</vendor>
+
+    <description>
+        Mallowigi's custom keymap. A mix of Windows and Mac keymaps.
+    </description>
+
+    <idea-version since-build="173.0" />
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledKeymap file="Mallowigi OSX.xml" />
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
