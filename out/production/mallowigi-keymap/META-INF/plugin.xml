@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.mallowigi.keymap</id>
     <name>Mallowigi KeyMap</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <category>Keymap</category>
     <vendor email="elior@material-theme.com" url="https://www.material-theme.com">AtomMaterial</vendor>
 
