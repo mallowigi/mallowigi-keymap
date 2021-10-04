@@ -1,4 +1,4 @@
-<keymap version="1" name="Mallowigi OSX" parent="Windows">
+<keymap version="1" name="Mallowigi OSX" parent="$default">
     <action id="$Copy">
         <keyboard-shortcut first-keystroke="meta c" />
     </action>

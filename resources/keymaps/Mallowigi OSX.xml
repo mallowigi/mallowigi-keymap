@@ -182,6 +182,9 @@
     <action id="Debug">
         <keyboard-shortcut first-keystroke="shift f5" />
     </action>
+    <action id="Debugger.AddInlineWatch">
+        <keyboard-shortcut first-keystroke="alt a" second-keystroke="alt i" />
+    </action>
     <action id="Diff.ApplyLeftSide" />
     <action id="Diff.ApplyRightSide" />
     <action id="Diff.IgnoreLeftSide">
@@ -546,6 +549,7 @@
         <keyboard-shortcut first-keystroke="f4" />
     </action>
     <action id="Jdbc.RunQueryInConsole" />
+    <action id="JFormDesigner.GotoJfdOrJavaAction" />
     <action id="JumpToColorsAndFonts">
         <keyboard-shortcut first-keystroke="alt j" second-keystroke="alt c" />
     </action>
@@ -621,6 +625,10 @@
     </action>
     <action id="NextTab">
         <keyboard-shortcut first-keystroke="ctrl page_down" />
+    </action>
+    <action id="NextWindow">
+        <keyboard-shortcut first-keystroke="meta back_quote" />
+        <keyboard-shortcut first-keystroke="alt n" />
     </action>
     <action id="OpenFile">
         <keyboard-shortcut first-keystroke="ctrl o" />
@@ -702,6 +710,12 @@
     <action id="Replace">
         <keyboard-shortcut first-keystroke="meta r" />
     </action>
+    <action id="ReplaceInPath">
+        <keyboard-shortcut first-keystroke="shift ctrl r" />
+    </action>
+    <action id="RunClass" />
+    <action id="RunDashboard.Run" />
+    <action id="runShellFileAction" />
     <action id="Rerun" />
     <action id="RerunTests" />
     <action id="ResizeToolWindowDown" />
@@ -808,6 +822,9 @@
     <action id="Stop">
         <keyboard-shortcut first-keystroke="f10" />
     </action>
+    <action id="StringManipulation.ToCamelCase">
+        <keyboard-shortcut first-keystroke="alt t" second-keystroke="alt c" />
+    </action>
     <action id="SwitchApply">
         <keyboard-shortcut first-keystroke="ctrl alt enter" />
     </action>
@@ -870,6 +887,10 @@
     </action>
     <action id="TogglePresentationMode">
         <keyboard-shortcut first-keystroke="f11" />
+    </action>
+    <action id="ToggleRenderedDocPresentation">
+        <keyboard-shortcut first-keystroke="ctrl alt q" />
+        <keyboard-shortcut first-keystroke="ctrl period" />
     </action>
     <action id="TypeHierarchy" />
     <action id="TypeScriptExtractTypeAlias">
